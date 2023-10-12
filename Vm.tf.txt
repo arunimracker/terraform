@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "azurerm" {
-  # Yaha pe credentials daalna hai authentication ke lie
+  # Enter Azure Subscription ID
   subscription_id = "ad22cf68-8555-41a6-ba6f-506901d4b594"
   # For below Client_id or application id
   client_id       = "66a36681-337b-41ef-81eb-6b10467ebc0d"
