@@ -75,6 +75,6 @@ resource "azurerm_windows_virtual_machine" "example" {
 
   tags = {
     BuildBy =  "Arunim Pandey"
-    BuildFrom: "Terraform"
+    BuildFrom = "Terraform"
   }
 }
