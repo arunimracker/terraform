@@ -9,13 +9,13 @@ terraform {
 
 provider "azurerm" {
   # Enter Azure Subscription ID
-  subscription_id = "ad22cf68-8555-41a6-ba6f-506901d4b594"
+  subscription_id = "ad22xx8-8xx5-4xx6-bxxf-50xxxxx4bx94"
   # For below Client_id or application id
-  client_id       = "66a36681-337b-41ef-81eb-6b10467ebc0d"
+  client_id       = "66xxxx3x66x1-x37x-x1xf-8xxb-6b1xxxbc0d"
   # For below, go to application(which created for auth purpose)>Certificates & secrets>New Client Secret
-  client_secret   = "XQ08Q~girlH3qNC4S5tRt6nfcqRB~uTFPdUNQbVQ"
+  client_secret   = "XQ08xxxxxxrlH3qNC4xxxxxxnfcqRBxxxxxxNQbVQ"
   #  for below directory or tenenat ID
-  tenant_id       = "ed22e461-219e-4167-b3db-d10c7168b52b"
+  tenant_id       = "edxxe461-xx9e-4xx7-bxxb-d10xxxxxb52b"
   features {}
 }
 
